@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <form action="procceso.php" method="post">
-            <fieldset>
-                <legend>Datos personales</legend>
-                Nombre: <input type="text" name="nombre">
-                Edad: <input type="number" name="edad">
-                <input type="submit" value="Enviar">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Caso Práctico 2</title>
+</head>
+<body>
+    <form action = "proceso.php" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+                Nombre: <input type="text" name="nombre"> <br> <br>
+                Edad: <input type="number" name="Edad"> <br> <br>
+    
+        <input type="submit" value ="enviar">
             </fieldset>
-        </form>
-    </body>
-</html>
+            <fieldset>
+        <legend>Datos de intereses</legend>
+    ¿Estás casado? <input type="radio" name="casado" value ="si">Si
+                    <input type="radio" name="casado" value ="no">No 
+    <br> <br>
+    <h5>Deportes</h5>
+    <input type="checkbox" name= "Deportes" value="Baloncesto">Hockey
+    <input type="checkbox" name= "Deportes" value="futbol"> Fútbol Sala
+    <input type="checkbox" name= "Deportes " value="ciclismo">Baloncesto
+    
+    </fieldset> <br> <br>
+    <input type="submit" value ="enviar">
+</form>
+ </body>
+ </html>
